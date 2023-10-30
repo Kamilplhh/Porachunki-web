@@ -18,7 +18,6 @@ h4 {
     padding-bottom: 2em;
     color: white;
     font-family: 'Raleway', sans-serif;
-    transition: .8s;
 }
 
 a {
@@ -55,8 +54,13 @@ a:hover {
   }
 
   .dark {
+    transition: .8s;
     text-shadow: 1px 1px white !important;
     background-color: rgba(0, 0, 0, .9);
+  }
+
+  .selected {
+    border-bottom: 1px solid white;
   }
 
   @media (max-width: 1200px) {

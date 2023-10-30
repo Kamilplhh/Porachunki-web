@@ -21,8 +21,8 @@
             <div class="row">
                 <h4 class="col-md-6 col-sm-3 text-left">Porachunki</h4>
                 <div class="col-md-6 col-sm-9 text-right">
-                    <h4 class="px-3"><a href="" class="text">Home</a></h4>
-                    <h4 class="px-3"><a href="" class="text">Contact</a></h4>
+                    <h4 class="px-3"><a href="/" class="text" id="home">Home</a></h4>
+                    <h4 class="px-3"><a href="/contact" class="text" id="contact">Contact</a></h4>
                     <h4><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram px-4"></i></a></h4>
                     <h4><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f px-2"></i></a></h4>
                 </div>

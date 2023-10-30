@@ -17,3 +17,14 @@ $(window).on("scroll", function () {
         $('.navi').removeClass('dark');
     }
 })
+
+
+$( document ).ready(function() {
+    let id = $('.block').attr('id');
+    selected(id);
+});
+
+function selected (id) {
+    $('.navi').find('#'+id).removeClass('text');
+    $('.navi').find('#'+id).addClass('selected');
+}
