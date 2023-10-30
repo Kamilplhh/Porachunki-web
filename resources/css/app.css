@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+h4 {
+    display: inline-block;
+}
+
+.container {
+    top: 0;
+    left: 0;
+    position: sticky;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-transform: uppercase;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    transition: .8s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.text {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .text:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .text:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .dark {
+    text-shadow: 1px 1px white !important;
+    background-color: rgba(0, 0, 0, .9);
+  }
+
+  @media (max-width: 1200px) {
+    .container {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+  }
