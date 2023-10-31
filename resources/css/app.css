@@ -74,6 +74,24 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .mapouter {
+    width: 800px !important;
+    height: 400px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+    overflow-x: hidden;
+  }
+
+  .mapouter {
+    width: 600px !important;
+    height: 400px !important;
+  }
 }
 
 .contactForm {
@@ -88,4 +106,16 @@ a:hover {
 
 .btn-contact:hover {
   background-color: rgb(197, 168, 132);
+}
+
+.mapouter {
+  width: 1200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gmap_canvas iframe {
+  position: relative;
+  z-index: 2
 }
