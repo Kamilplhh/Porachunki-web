@@ -14,7 +14,7 @@
         <form action="/contact" class="text-left contactForm" method="post">
             @csrf
             <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name">Imie i nazwisko</label>
                 <input type="text" name="name" id="name" class="form-control" required>
             </div>
 
@@ -24,11 +24,13 @@
             </div>
 
             <div class="form-group">
-                <label for="message">Message</label>
+                <label for="message">Treść maila</label>
                 <textarea name="message" id="message" class="form-control" required></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="text-center">
+                <button type="submit" class="btn btn-contact">Wyślij</button>
+            </div>
         </form>
     </div>
 </div>

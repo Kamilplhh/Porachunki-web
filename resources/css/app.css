@@ -81,3 +81,11 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+.btn-contact {
+  background-color: bisque;
+}
+
+.btn-contact:hover {
+  background-color: rgb(197, 168, 132);
+}
