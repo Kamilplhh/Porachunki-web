@@ -94,6 +94,14 @@ a:hover {
   }
 }
 
+.map-text {
+  color: white;
+}
+
+.map-text p {
+  margin: .3em 0 !important;
+}
+
 .contactForm {
   width: 60%;
   margin-left: auto;
