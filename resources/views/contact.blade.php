@@ -11,7 +11,7 @@
         </div>
         @endif
 
-        <form action="/contact" class="text-left" method="post">
+        <form action="/contact" class="text-left contactForm" method="post">
             @csrf
             <div class="form-group">
                 <label for="name">Name</label>
