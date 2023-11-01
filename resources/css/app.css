@@ -226,7 +226,7 @@ a:hover {
 	0% {
 		animation-timing-function: ease-in;
 		opacity: 0;
-		transform: translateY(-250px);
+		transform: translateY(-150px);
 	}
 
 	38% {
@@ -237,7 +237,7 @@ a:hover {
 
 	55% {
 		animation-timing-function: ease-in;
-		transform: translateY(-65px);
+		transform: translateY(-45px);
 	}
 
 	72% {
@@ -247,7 +247,7 @@ a:hover {
 
 	81% {
 		animation-timing-function: ease-in;
-		transform: translateY(-28px);
+		transform: translateY(-18px);
 	}
 
 	90% {
@@ -257,7 +257,7 @@ a:hover {
 
 	95% {
 		animation-timing-function: ease-in;
-		transform: translateY(-8px);
+		transform: translateY(-2px);
 	}
 
 	100% {
