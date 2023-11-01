@@ -18,8 +18,8 @@ $(window).on("scroll", function () {
     }
 })
 
-
 $( document ).ready(function() {
+    $('.container').addClass('transition');
     let id = $('.block').attr('id');
     selected(id);
 });

@@ -10,6 +10,7 @@ h4 {
   top: 0;
   left: 0;
   position: sticky;
+  z-index: 2;
   max-width: 100%;
   padding-left: 10%;
   padding-right: 10%;
@@ -18,6 +19,11 @@ h4 {
   padding-bottom: 2em;
   color: rgb(0, 0, 0);
   font-family: 'Raleway', sans-serif;
+  height: 100px;
+}
+
+.transition {
+  transition: .4s;
 }
 
 a {
@@ -54,7 +60,6 @@ a:hover {
 }
 
 .dark {
-  transition: .8s;
   text-shadow: 1px 1px rgb(0, 0, 0) !important;
   background-color: rgb(250,240,230);
 }
@@ -125,5 +130,18 @@ a:hover {
 
 .gmap_canvas iframe {
   position: relative;
-  z-index: 2
+  z-index: 1
+}
+
+.showcase {
+  position: relative;
+  top: -100px;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("/public/photo/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
