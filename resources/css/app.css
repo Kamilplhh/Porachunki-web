@@ -16,8 +16,8 @@ h4 {
   padding-left: 10%;
   padding-right: 10%;
   text-transform: uppercase;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
   color: rgb(0, 0, 0);
   font-family: 'Raleway', sans-serif;
   min-height: 100px;
@@ -91,6 +91,10 @@ a:hover {
   height: auto !important;
 }
 
+.fix {
+  top: calc(100% - 100px) !important;
+}
+
 @media (max-width: 1200px) {
   .container {
     padding-left: 2% !important;
@@ -118,6 +122,10 @@ a:hover {
   .navi-mobile {
     display: none !important;
   }
+
+  .block {
+    top: 100% !important;
+  }
 }
 
 @media (max-width: 850px) {
@@ -138,6 +146,15 @@ a:hover {
 
   .bigS {
     display: none !important;
+  }
+
+  .container h4 {
+    font-size: 16px !important;
+  }
+
+  .container {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
   }
 }
 
@@ -176,9 +193,14 @@ a:hover {
   z-index: 1
 }
 
-.showcase {
+.block {
+  top: 100%;
   position: relative;
-  top: -101px;
+}
+
+.showcase {
+  position: absolute;
+  top: 0;
   left: 0;
   z-index: 0;
   height: 100%;

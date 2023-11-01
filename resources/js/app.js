@@ -31,4 +31,5 @@ function selected (id) {
 
 $('.smallS').on('click', function() {
     $('.navi-mobile').toggleClass('show');
+    $('.block').toggleClass('fix');
 })
