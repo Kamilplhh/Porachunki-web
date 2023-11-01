@@ -7,6 +7,7 @@ h4 {
 }
 
 .container {
+  overflow: hidden;
   top: 0;
   left: 0;
   position: sticky;
@@ -19,7 +20,7 @@ h4 {
   padding-bottom: 2em;
   color: rgb(0, 0, 0);
   font-family: 'Raleway', sans-serif;
-  height: 100px;
+  min-height: 100px;
 }
 
 .transition {
@@ -60,12 +61,34 @@ a:hover {
 }
 
 .dark {
-  text-shadow: 1px 1px rgb(0, 0, 0) !important;
+  text-shadow: .5px .5px rgb(0, 0, 0) !important;
   background-color: rgb(250,240,230);
 }
 
 .selected {
   border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.smallS {
+  display: none !important;
+}
+
+.fa-bars {
+  cursor: pointer !important;
+}
+
+.navi-mobile {
+  display: none !important;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  height: auto;
+  transition: 1s;
+}
+
+.show {
+  display: flex !important;
+  animation: entrance 1s ease-in 0s 1 normal none;
+  height: auto !important;
 }
 
 @media (max-width: 1200px) {
@@ -91,6 +114,12 @@ a:hover {
   }
 }
 
+@media (min-width: 850px) {
+  .navi-mobile {
+    display: none !important;
+  }
+}
+
 @media (max-width: 850px) {
   .container {
     padding-left: 1% !important;
@@ -101,6 +130,14 @@ a:hover {
   .mapouter {
     width: 100% !important;
     height: 400px !important;
+  }
+
+  .smallS {
+    display: block !important;
+  }
+
+  .bigS {
+    display: none !important;
   }
 }
 
@@ -141,7 +178,7 @@ a:hover {
 
 .showcase {
   position: relative;
-  top: -100px;
+  top: -101px;
   left: 0;
   z-index: 0;
   height: 100%;
@@ -161,4 +198,48 @@ a:hover {
   padding-bottom: 2em;
   color: rgb(0, 0, 0);
   font-family: 'Raleway', sans-serif;
+}
+
+@keyframes entrance {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
 }

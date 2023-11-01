@@ -28,3 +28,7 @@ function selected (id) {
     $('.navi').find('#'+id).removeClass('text');
     $('.navi').find('#'+id).addClass('selected');
 }
+
+$('.smallS').on('click', function() {
+    $('.navi-mobile').toggleClass('show');
+})
