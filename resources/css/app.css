@@ -74,6 +74,11 @@ a:hover {
     padding-right: 2% !important;
   }
 
+  .containerContact {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+
   .contactForm {
     width: 100% !important;
     margin-left: auto;
@@ -94,7 +99,7 @@ a:hover {
   }
 
   .mapouter {
-    width: 600px !important;
+    width: 100% !important;
     height: 400px !important;
   }
 }
@@ -114,7 +119,8 @@ a:hover {
 }
 
 .btn-contact {
-  background-color: bisque;
+  outline: 1px solid rgb(197, 168, 132);
+  background-color: rgb(241, 207, 165);
 }
 
 .btn-contact:hover {
@@ -144,4 +150,15 @@ a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.containerContact {
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-transform: uppercase;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: rgb(0, 0, 0);
+  font-family: 'Raleway', sans-serif;
 }

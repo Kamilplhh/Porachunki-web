@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="block" id="contact">
-    <div class="container text-center">
+    <div class="containerContact text-center">
         <h1>Contact Us</h1>
 
         @if(session('message'))
@@ -11,7 +11,7 @@
         </div>
         @endif
 
-        <form action="/contact" class="text-left contactForm" method="post">
+        <form action="/contact" class="text-left contactForm pb-5" method="post">
             @csrf
             <div class="form-group">
                 <label for="name">Imie i nazwisko</label>
