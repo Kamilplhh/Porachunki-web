@@ -29,7 +29,9 @@
             </div>
         </div>
     @show
-
+    <div class="showcase">
+        
+    </div>
         @yield('content')
 </body>
 
