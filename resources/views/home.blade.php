@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="block">
+<div class="block" id="contact">
     <div class="containerContact text-center">
         <h1>Contact Us</h1>
 

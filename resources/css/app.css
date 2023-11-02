@@ -2,6 +2,10 @@ body {
   background-color: rgb(238,217,196);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h4 {
   display: inline-block;
 }
