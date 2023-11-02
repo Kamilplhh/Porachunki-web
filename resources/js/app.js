@@ -20,14 +20,7 @@ $(window).on("scroll", function () {
 
 $( document ).ready(function() {
     $('.container').addClass('transition');
-    let id = $('.block').attr('id');
-    selected(id);
 });
-
-function selected (id) {
-    $('.navi').find('#'+id).removeClass('text');
-    $('.navi').find('#'+id).addClass('selected');
-}
 
 $('.smallS').on('click', function() {
     $('.navi-mobile').toggleClass('show');
