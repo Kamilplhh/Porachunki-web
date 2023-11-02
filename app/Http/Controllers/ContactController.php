@@ -10,7 +10,7 @@ class ContactController extends Controller
 {
     public function index()
     {
-        return view('contact');
+        return view('home');
     }
 
     public function sendEmail(Request $request)
@@ -23,6 +23,6 @@ class ContactController extends Controller
 
         Mail::to('mail')->send(new ContactFormMail($data));
 
-        return redirect('/contact')->with('message', 'Email został wysłany');
+        return redirect('/')->with('message', 'Email został wysłany');
     }
 }

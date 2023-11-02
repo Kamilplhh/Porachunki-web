@@ -15,13 +15,6 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [ContactController::class, 'index']);
+Route::post('/', [ContactController::class, 'sendEmail']);
 
-Route::get('/contact', [ContactController::class, 'index']);
-Route::post('/contact', [ContactController::class, 'sendEmail']);
-
-Route::get('/page1', function () {
-    return view('page1');
-});
