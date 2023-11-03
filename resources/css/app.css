@@ -222,6 +222,16 @@ a:hover {
   font-family: 'Raleway', sans-serif;
 }
 
+.footer {
+  padding-top: 100px;
+  width: 100%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 @keyframes entrance {
 	0% {
 		animation-timing-function: ease-in;

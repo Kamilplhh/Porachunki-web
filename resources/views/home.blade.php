@@ -45,4 +45,9 @@
         </div>
     </div>
 </div>
+<div class="d-flex justify-content-between block footer pb-2">
+    <p>Morozya, Kalerowicza 12</p>
+    <p>Olsztyn 80-300</p>
+    <p>123 345 221</p>
+</div>
 @stop
