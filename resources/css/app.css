@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(238,217,196);
+  background-color: rgb(238, 217, 196);
+  color: #7F4F38;
 }
 
 html {
@@ -8,7 +9,6 @@ html {
 
 h4 {
   display: inline-block;
-  color: #7F4F38;
 }
 
 .container {
@@ -21,7 +21,7 @@ h4 {
   text-transform: uppercase;
   padding-top: 2em !important;
   padding-bottom: 2em !important;
-  color: rgb(0, 0, 0);
+  color: #7F4F38;
   font-family: 'Raleway', sans-serif;
   min-height: 100px;
 }
@@ -65,7 +65,7 @@ a:hover {
 
 .dark {
   max-width: 100%;
-  background-color: rgb(250,240,230);
+  background-color: rgb(250, 240, 230);
 }
 
 .dark h4 {
@@ -81,6 +81,8 @@ a:hover {
 }
 
 .navi-mobile {
+  padding-left: calc(1% + 15px) !important;
+  padding-right: calc(1% + 15px) !important;
   display: none !important;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -99,7 +101,7 @@ a:hover {
 }
 
 @media (max-width: 1200px) {
-  .container {
+  .limit {
     padding-left: 2% !important;
     padding-right: 2% !important;
   }
@@ -121,7 +123,7 @@ a:hover {
   } */
 }
 
-@media (min-width: 850px) {
+@media (min-width: 900px) {
   .navi-mobile {
     display: none !important;
   }
@@ -131,11 +133,16 @@ a:hover {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .container {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+    overflow-x: hidden;
+  }
+
+  .limit {
     padding-left: 1% !important;
     padding-right: 1% !important;
-    overflow-x: hidden;
   }
 
   /* .mapouter {
@@ -155,9 +162,8 @@ a:hover {
     font-size: 16px !important;
   }
 
-  .container {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
+  .footer {
+    font-size: 13px !important;
   }
 }
 
@@ -183,7 +189,7 @@ h1 {
 
 .btn-contact {
   outline: 1px solid #7F4F38;
-  background-color: rgb(250,240,230);
+  background-color: rgb(250, 240, 230);
 }
 
 .btn-contact:hover {
@@ -233,6 +239,7 @@ h1 {
 
 .footer {
   margin-top: 100px;
+  font-weight: 500 !important;
 }
 
 .limit {
@@ -245,45 +252,45 @@ h1 {
 }
 
 @keyframes entrance {
-	0% {
-		animation-timing-function: ease-in;
-		opacity: 0;
-		transform: translateY(-150px);
-	}
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(-150px);
+  }
 
-	38% {
-		animation-timing-function: ease-out;
-		opacity: 1;
-		transform: translateY(0);
-	}
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0);
+  }
 
-	55% {
-		animation-timing-function: ease-in;
-		transform: translateY(-45px);
-	}
+  55% {
+    animation-timing-function: ease-in;
+    transform: translateY(-45px);
+  }
 
-	72% {
-		animation-timing-function: ease-out;
-		transform: translateY(0);
-	}
+  72% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
 
-	81% {
-		animation-timing-function: ease-in;
-		transform: translateY(-18px);
-	}
+  81% {
+    animation-timing-function: ease-in;
+    transform: translateY(-18px);
+  }
 
-	90% {
-		animation-timing-function: ease-out;
-		transform: translateY(0);
-	}
+  90% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
 
-	95% {
-		animation-timing-function: ease-in;
-		transform: translateY(-2px);
-	}
+  95% {
+    animation-timing-function: ease-in;
+    transform: translateY(-2px);
+  }
 
-	100% {
-		animation-timing-function: ease-out;
-		transform: translateY(0);
-	}
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
 }
