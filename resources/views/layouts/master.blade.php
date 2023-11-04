@@ -18,7 +18,7 @@
 <body>
     @section('navbar')
     <div class="container navi">
-        <div class="row">
+        <div class="row limit">
             <h4 class="col-md-6 col-sm-3 text-left">Porachunki</h4>
             <div class="col-md-6 col-sm-9 text-right">
                 <h4 class="px-3 bigS"><a href="#home" class="text">Home</a></h4>

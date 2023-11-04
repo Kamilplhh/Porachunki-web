@@ -8,6 +8,7 @@ html {
 
 h4 {
   display: inline-block;
+  color: #7F4F38;
 }
 
 .container {
@@ -17,8 +18,6 @@ h4 {
   position: fixed;
   z-index: 2;
   max-width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
   text-transform: uppercase;
   padding-top: 2em !important;
   padding-bottom: 2em !important;
@@ -33,12 +32,12 @@ h4 {
 
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #7F4F38;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(88, 88, 88);
+  color: #7F4F38;
 }
 
 .text {
@@ -54,7 +53,7 @@ a:hover {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000000;
+  background-color: #7F4F38;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -65,8 +64,12 @@ a:hover {
 }
 
 .dark {
-  text-shadow: .5px .5px rgb(0, 0, 0) !important;
+  max-width: 100%;
   background-color: rgb(250,240,230);
+}
+
+.dark h4 {
+  font-weight: bold !important;
 }
 
 .smallS {
@@ -112,10 +115,10 @@ a:hover {
     margin-right: auto;
   }
 
-  .mapouter {
+  /* .mapouter {
     width: 800px !important;
     height: 400px !important;
-  }
+  } */
 }
 
 @media (min-width: 850px) {
@@ -135,10 +138,10 @@ a:hover {
     overflow-x: hidden;
   }
 
-  .mapouter {
+  /* .mapouter {
     width: 100% !important;
     height: 400px !important;
-  }
+  } */
 
   .smallS {
     display: block !important;
@@ -166,22 +169,28 @@ a:hover {
   margin: .3em 0 !important;
 }
 
+h1 {
+  color: #7F4F38;
+}
+
 .contactForm {
-  width: 60%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
+  color: #7F4F38;
+  font-weight: bold !important;
 }
 
 .btn-contact {
-  outline: 1px solid rgb(197, 168, 132);
-  background-color: rgb(241, 207, 165);
+  outline: 1px solid #7F4F38;
+  background-color: rgb(250,240,230);
 }
 
 .btn-contact:hover {
-  background-color: rgb(197, 168, 132);
+  background-color: rgb(245, 222, 200);
 }
 
-.mapouter {
+/* .mapouter {
   width: 1200px;
   height: 500px;
   margin-left: auto;
@@ -191,7 +200,7 @@ a:hover {
 .gmap_canvas iframe {
   position: relative;
   z-index: 1
-}
+} */
 
 .block {
   top: 100%;
@@ -223,13 +232,16 @@ a:hover {
 }
 
 .footer {
-  padding-top: 100px;
-  width: 100%;
-  max-width: 1500px;
+  margin-top: 100px;
+}
+
+.limit {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 2500px;
+  width: 100%;
 }
 
 @keyframes entrance {

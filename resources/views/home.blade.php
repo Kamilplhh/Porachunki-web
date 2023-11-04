@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="block" id="contact">
+<div class="block limit" id="contact">
     <div class="containerContact text-center">
         <h1>Contact Us</h1>
 
@@ -34,20 +34,24 @@
         </form>
     </div>
 </div>
-<div class="block">
-    <div class="mapouter">
-        <div class="gmap_canvas">
-            <iframe src="https://maps.google.com/maps?q=Mercedes,%20Towarowa,%20Olsztyn,%20Poland&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 100%; height: 100%;"></iframe>
-        </div>
-        <div class="map-text text-left py-2 pb-5">
-            <p>Morozya, Kalerowicza 12</p>
-            <p>Olsztyn 80-300</p>
-        </div>
-    </div>
+<div class="block limit">
+
 </div>
-<div class="d-flex justify-content-between block footer pb-2">
-    <p>Morozya, Kalerowicza 12</p>
-    <p>Olsztyn 80-300</p>
-    <p>123 345 221</p>
+<div class="d-flex justify-content-between block footer limit pb-2">
+    <div>
+        Biuro Rachunkowe PORACHUNKI <br>
+        ul. Macieja Rataja 62/8 <br>
+        10-260 Olsztyn <br>
+        NIP: 7451816138
+    </div>
+    <div>
+        Godziny otwarcia: <br>
+        Poniedziałek - piątek 9-18 <br>
+        Sobota 10-14
+    </div>
+    <div>
+        Telefon: <br>
+        +48 787 608 737
+    </div>
 </div>
 @stop
