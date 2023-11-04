@@ -1,9 +1,20 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="block limit" id="contact">
+<div class="block limit text-center mt-5" id="offer">
+    <h1>Oferta</h1>
+    <p class="pt-2">
+        Oferta dostosowana jest do indywidualnych potrzeb każdego klienta ze szczególnym uwzględnieniem jego wymagań oraz specyfiki prowadzonej działaności. Rzetelna, nieustannie poszerzana wiedza oraz doświadczenie zawodowe pozwalają nam na świadczenie usług na najwyższym poziomie. Posiadamy ubezpieczenie od odpowiedzialności cywilnej w związku z prowadzoną działalnością.
+    </p>
+    <p class="pt-2">Ceny usług są ustalane podczas indywidualnych rozmów z klientami oraz uzależnione są od:</p>
+    <li>formy prawnej prowadzonej działalności</li>
+    <li>rodzaju ewidencji księgowej</li>
+    <li>Ilości dokumentów księgowych</li>
+
+</div>
+<div class="block limit mt-5" id="contact">
     <div class="containerContact text-center">
-        <h1>Contact Us</h1>
+        <h1>Kontakt</h1>
 
         @if(session('message'))
         <div class="alert alert-success">
@@ -33,9 +44,6 @@
             </div>
         </form>
     </div>
-</div>
-<div class="block limit">
-
 </div>
 <div class="d-flex justify-content-between block footer limit pb-2">
     <div>

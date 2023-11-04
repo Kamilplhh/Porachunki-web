@@ -22,6 +22,7 @@ h4 {
   padding-top: 2em !important;
   padding-bottom: 2em !important;
   color: #7F4F38;
+  text-shadow: 1px 1px rgb(3, 2, 2) !important;
   font-family: 'Raleway', sans-serif;
   min-height: 100px;
 }
@@ -37,12 +38,25 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #7F4F38;
+  color: #4b291d;
 }
 
 .text {
   display: inline-block;
   position: relative;
+}
+
+.logo {
+  color: white;
+  text-shadow: 1px 2px rgb(3, 2, 2) !important;
+  border: 2px solid #725345;
+  padding: 0.5em;
+  transition: .2s;
+}
+
+.logo:hover {
+  color: #725345;
+  text-shadow: .5px .5px #725345 !important;
 }
 
 .text:after {
@@ -53,7 +67,7 @@ a:hover {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #7F4F38;
+  background-color: #643823;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -66,6 +80,16 @@ a:hover {
 .dark {
   max-width: 100%;
   background-color: rgb(250, 240, 230);
+}
+
+.dark .logo {
+  color: #7F4F38 !important;
+  text-shadow: 1px 1px rgb(3, 2, 2) !important;
+}
+
+.dark .logo:hover {
+  color: #4b2619 !important;
+  text-shadow: 1px 1px #4b2619 !important;
 }
 
 .dark h4 {
@@ -102,11 +126,6 @@ a:hover {
 
 @media (max-width: 1200px) {
   .limit {
-    padding-left: 2% !important;
-    padding-right: 2% !important;
-  }
-
-  .containerContact {
     padding-left: 2% !important;
     padding-right: 2% !important;
   }
@@ -167,16 +186,17 @@ a:hover {
   }
 }
 
-.map-text {
+/* .map-text {
   color: rgb(0, 0, 0);
 }
 
 .map-text p {
   margin: .3em 0 !important;
-}
+} */
 
 h1 {
   color: #7F4F38;
+  font-weight: 400 !important;
 }
 
 .contactForm {
@@ -220,7 +240,7 @@ h1 {
   z-index: 0;
   height: 100%;
   width: 100%;
-  background-image: url("/public/photo/background.jpg");
+  background-image: url("/public/photo/bg-test.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -228,8 +248,6 @@ h1 {
 
 .containerContact {
   max-width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
   text-transform: uppercase;
   padding-top: 2em;
   padding-bottom: 2em;
