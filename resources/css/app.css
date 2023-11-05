@@ -1,6 +1,7 @@
 body {
-  background-color: rgb(238, 217, 196);
-  color: #7F4F38;
+  background-color: rgb(241, 235, 228);
+  color: #a58170;
+  font-weight: 500 !important;
 }
 
 html {
@@ -21,8 +22,7 @@ h4 {
   text-transform: uppercase;
   padding-top: 2em !important;
   padding-bottom: 2em !important;
-  color: #7F4F38;
-  text-shadow: 1px 1px rgb(3, 2, 2) !important;
+  text-shadow: 1px 1px rgb(0, 0, 0) !important;
   font-family: 'Raleway', sans-serif;
   min-height: 100px;
 }
@@ -33,12 +33,13 @@ h4 {
 
 a {
   text-decoration: none;
-  color: #7F4F38;
+  color: #ad8a7d;
+  text-shadow: 1px 1px rgb(0, 0, 0) !important;
 }
 
 a:hover {
   text-decoration: none;
-  color: #4b291d;
+  color: #ad8a7d;
 }
 
 .text {
@@ -48,15 +49,14 @@ a:hover {
 
 .logo {
   color: white;
-  text-shadow: 1px 2px rgb(3, 2, 2) !important;
-  border: 2px solid #725345;
+  text-shadow: 1px 2px rgb(0, 0, 0) !important;
+  border: 2px solid #ad8a7d;
   padding: 0.5em;
   transition: .2s;
 }
 
 .logo:hover {
-  color: #725345;
-  text-shadow: .5px .5px #725345 !important;
+  color: #d1bfb9;
 }
 
 .text:after {
@@ -67,7 +67,7 @@ a:hover {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #643823;
+  background-color: #9b7a6f;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -79,17 +79,19 @@ a:hover {
 
 .dark {
   max-width: 100%;
-  background-color: rgb(250, 240, 230);
+  background-color: rgb(241, 235, 228);
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 2px 20px 0px rgba(66, 68, 90, 1);
+  box-shadow: 0px 2px 20px 0px rgba(66, 68, 90, 1);
 }
 
 .dark .logo {
-  color: #7F4F38 !important;
-  text-shadow: 1px 1px rgb(3, 2, 2) !important;
+  color: #ad8a7d !important;
+  text-shadow: 0px 1px rgb(3, 2, 2) !important;
 }
 
 .dark .logo:hover {
-  color: #4b2619 !important;
-  text-shadow: 1px 1px #4b2619 !important;
+  color: #976a55 !important;
 }
 
 .dark h4 {
@@ -114,10 +116,6 @@ a:hover {
     margin-right: auto;
   }
 
-  /* .mapouter {
-    width: 800px !important;
-    height: 400px !important;
-  } */
 }
 
 @media (max-width: 900px) {
@@ -132,11 +130,6 @@ a:hover {
     padding-right: 1% !important;
   }
 
-  /* .mapouter {
-    width: 100% !important;
-    height: 400px !important;
-  } */
-
   .container h4 {
     font-size: 16px !important;
   }
@@ -146,17 +139,9 @@ a:hover {
   }
 }
 
-/* .map-text {
-  color: rgb(0, 0, 0);
-}
-
-.map-text p {
-  margin: .3em 0 !important;
-} */
-
 h1 {
+  font-family: 'Raleway', sans-serif;
   color: #7F4F38;
-  font-weight: 400 !important;
 }
 
 .contactForm {
@@ -173,20 +158,8 @@ h1 {
 }
 
 .btn-contact:hover {
-  background-color: rgb(245, 222, 200);
+  background-color: rgb(228, 214, 200);
 }
-
-/* .mapouter {
-  width: 1200px;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.gmap_canvas iframe {
-  position: relative;
-  z-index: 1
-} */
 
 .block {
   top: 100%;
@@ -209,14 +182,13 @@ h1 {
   align-items: center;
 }
 
-.info {
-  font-size: large;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 2px rgb(20, 20, 20) !important;
-  padding: 150px 100px;
+.info h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700 !important;
+  color: white;
+  text-shadow: 0px 1px 4px #000000;
+  -webkit-text-stroke: .2px #000000;
   line-height: 2em;
-  backdrop-filter: blur(10px);
   max-width: auto !important;
   max-height: auto !important;
 }
@@ -231,6 +203,7 @@ h1 {
 }
 
 .footer {
+  padding-bottom: 1.5em !important;
   margin-top: 100px;
   font-weight: 500 !important;
 }

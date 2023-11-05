@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="block limit text-center mt-5" id="offer">
-    <h1>Oferta</h1>
+    <h1>OFERTA</h1>
     <p class="pt-2">
         Oferta dostosowana jest do indywidualnych potrzeb każdego klienta ze szczególnym uwzględnieniem jego wymagań oraz specyfiki prowadzonej działaności. Rzetelna, nieustannie poszerzana wiedza oraz doświadczenie zawodowe pozwalają nam na świadczenie usług na najwyższym poziomie. Posiadamy ubezpieczenie od odpowiedzialności cywilnej w związku z prowadzoną działalnością.
     </p>

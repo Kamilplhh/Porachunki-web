@@ -28,12 +28,11 @@
     @show
     <div class="showcase" id="home">
         <div class="info text-center">
-            PROWADZENIE PKPIR <br>
-            EWIDENCJA PRZYCHODÓW ZRYCZAŁTOWANYCH <br>
-            URZĄD SKARBOWY <br>
-            ZUS <br>
-            ROZLICZENIA ROCZNE <br>
-            WSPÓŁPRACA ZDALNA 
+            <h1>
+                Biuro Rachunkowe PORACHUNKI <br>
+                787-608-737 <br>
+                KONTAKT@BIUROPORACHUNKI.PL
+            </h1>
         </div>
     </div>
     @yield('content')
