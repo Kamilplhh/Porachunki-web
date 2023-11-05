@@ -21,19 +21,7 @@
         <div class="row limit">
             <h4 class="col-md-6 col-sm-3 text-left"><a href="#home" class="logo">Porachunki</a></h4>
             <div class="col-md-6 col-sm-9 text-right">
-                <h4 class="px-3 bigS"><a href="#offer" class="text">Oferta</a></h4>
-
-                <h4 class="px-4 bigS"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></h4>
-                <h4 class="px-2 bigS"><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></h4>
-                <h4 class="pr-5 smallS"><i class="fa-solid fa-bars"></i></h4>
-            </div>
-        </div>
-        <div class="navi-mobile">
-            <div class="d-flex flex-column">
-                <h4><a href="#offer" class="text">Oferta</a></h4>
-
-                <h4><a href="https://www.instagram.com" target="_blank" class="text">Instagram</a></h4>
-                <h4><a href="https://www.facebook.com" target="_blank" class="text">Facebook</a></h4>
+                <h4 class="px-3"><a href="#offer" class="text">Oferta</a></h4>
             </div>
         </div>
     </div>

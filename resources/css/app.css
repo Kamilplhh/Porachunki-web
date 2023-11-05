@@ -96,32 +96,10 @@ a:hover {
   font-weight: bold !important;
 }
 
-.smallS {
-  display: none !important;
-}
-
-.fa-bars {
-  cursor: pointer !important;
-}
-
-.navi-mobile {
-  padding-left: calc(1% + 15px) !important;
-  padding-right: calc(1% + 15px) !important;
-  display: none !important;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  height: auto;
-  transition: 1s;
-}
-
 .show {
   display: flex !important;
   animation: entrance 1s ease-in 0s 1 normal none;
   height: auto !important;
-}
-
-.fix {
-  top: calc(100% - 100px) !important;
 }
 
 @media (max-width: 1200px) {
@@ -142,16 +120,6 @@ a:hover {
   } */
 }
 
-@media (min-width: 900px) {
-  .navi-mobile {
-    display: none !important;
-  }
-
-  .block {
-    top: 100% !important;
-  }
-}
-
 @media (max-width: 900px) {
   .container {
     padding-top: 2em !important;
@@ -168,14 +136,6 @@ a:hover {
     width: 100% !important;
     height: 400px !important;
   } */
-
-  .smallS {
-    display: block !important;
-  }
-
-  .bigS {
-    display: none !important;
-  }
 
   .container h4 {
     font-size: 16px !important;

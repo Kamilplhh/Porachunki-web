@@ -22,11 +22,6 @@ function scaling() {
     }
 }
 
-$('.smallS').on('click', function() {
-    $('.navi-mobile').toggleClass('show');
-    $('.block').toggleClass('fix');
-})
-
 $( document ).ready(function() {
     $('.container').addClass('transition');
     scaling();
