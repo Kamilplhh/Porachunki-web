@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
 
     @vite('resources/js/app.js')
     @vite('resources/css/app.css')
@@ -19,8 +20,8 @@
     @section('navbar')
     <div class="container navi">
         <div class="row limit">
-            <h4 class="col-md-6 col-sm-3 text-left"><a href="#home" class="logo">Porachunki</a></h4>
-            <div class="col-md-6 col-sm-9 text-right">
+            <h4 class="col-6 text-left"><a href="#home" class="logo">Porachunki</a></h4>
+            <div class="col-6 text-right">
                 <h4 class="px-3"><a href="#offer" class="text">Oferta</a></h4>
             </div>
         </div>

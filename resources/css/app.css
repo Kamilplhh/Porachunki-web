@@ -49,16 +49,14 @@ a:hover {
 
 .logo {
   color: white;
-  text-shadow: 1px 2px rgb(0, 0, 0) !important;
+  text-shadow: 1px 1px 30px rgb(0, 0, 0) !important;
   border: 2px solid #ad8a7d;
   padding: 0.5em;
   transition: .2s;
 }
 
 .logo:hover {
-  color: #bba49d;
-  font-weight: bold;
-  text-shadow: 0px 0px #ad8a7d !important;
+  color: #c5afa7;
 }
 
 .text:after {
@@ -131,10 +129,6 @@ a:hover {
     padding-left: 1% !important;
     padding-right: 1% !important;
   }
-
-  .footer {
-    font-size: 13px !important;
-  }
 }
 
 h1 {
@@ -177,16 +171,16 @@ h1 {
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .info h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Glacial Indifference', sans-serif;
   font-weight: 700 !important;
-  color: rgb(255, 255, 255);
-  text-shadow: 0px 1px 20px #000000;
+  color: #976a55;
   -webkit-text-stroke: .2px #000000;
   line-height: 2em;
+  font-size: 2.2em;
   max-width: auto !important;
   max-height: auto !important;
 }
@@ -204,6 +198,7 @@ h1 {
   padding-bottom: 1.5em !important;
   margin-top: 100px;
   font-weight: 500 !important;
+  font-size: 13px !important;
 }
 
 .limit {

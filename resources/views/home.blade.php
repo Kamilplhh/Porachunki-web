@@ -25,17 +25,17 @@
         <form action="/" class="text-left contactForm pb-5" method="post">
             @csrf
             <div class="form-group">
-                <label for="name">Imie i nazwisko</label>
-                <input type="text" name="name" id="name" class="form-control" required>
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email</label>
+                <label for="email">e-mail</label>
                 <input type="email" name="email" id="email" class="form-control" required>
             </div>
 
             <div class="form-group">
-                <label for="message">Treść maila</label>
+                <label for="name">imię i nazwisko</label>
+                <input type="text" name="name" id="name" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">TWOJA WIADOMOŚĆ</label>
                 <textarea name="message" id="message" class="form-control" required></textarea>
             </div>
 
@@ -48,14 +48,15 @@
 <div class="d-flex justify-content-between block footer limit pb-2">
     <div>
         Biuro Rachunkowe PORACHUNKI <br>
+        Dawid Karcz <br>
         ul. Macieja Rataja 62/8 <br>
         10-260 Olsztyn <br>
         NIP: 7451816138
     </div>
     <div>
         Godziny otwarcia: <br>
-        Poniedziałek - piątek 9-18 <br>
-        Sobota 10-14
+        poniedziałek - piątek 9:00-18:00 <br>
+        sobota 10:00-14:00
     </div>
     <div>
         Telefon: <br>
