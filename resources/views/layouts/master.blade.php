@@ -19,15 +19,12 @@
 <body>
     @section('navbar')
     <div class="container navi">
-        <div class="row limit">
-            <h4 class="col-6 text-left"><a href="#home" class="logo">Porachunki</a></h4>
-            <div class="col-6 text-right">
-                <h4 class="px-3"><a href="#offer" class="text">Oferta</a></h4>
-            </div>
+        <div class="limit text-right">
+            <h4 class="px-3"><a href="#offer" class="text">Oferta</a></h4>
         </div>
     </div>
     @show
-    <div class="showcase" id="home">
+    <div class="showcase">
         <div class="info text-center">
             <h1>
                 Biuro Rachunkowe PORACHUNKI <br>
