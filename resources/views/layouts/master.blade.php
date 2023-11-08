@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Porachunki">
 
     <title>Porachunki</title>
@@ -19,7 +19,7 @@
 <body>
     @section('navbar')
     <div class="container navi">
-        <div class="limit text-right">
+        <div class="limit text-right naviText">
             <h4 class="px-3"><a href="#offer" class="text">Oferta</a></h4>
         </div>
     </div>
